@@ -1,0 +1,71 @@
+.color_label{
+    color:red;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.color_label_business{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #1800C8;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.nav-icon{
+    color: #fff !important;
+}
+
+.text-muted {
+    color: #F2F6FC !important;
+}
+
+.app-header .navbar-brand {
+    width: 200px !important;
+}
+
+/*Media Query*/
+@media (max-width: 991px) {
+    .navbar-brand{
+        left:15% !important;
+    }
+    .app-header .navbar-brand {
+        width: 170px !important;
+    }
+
+    #empresa{
+        margin-left: 20% !important;
+    }
+}
+
+@media (max-width: 767px){
+
+    .logo_empresa img{
+        display: none;
+    }
+
+    #empresa{
+        margin-top: 0px !important;
+    }
+
+    #empresa .color_label{
+        display: none !important;
+    }
+
+    #empresa{
+        margin-left: 0% !important;
+    }
+}
+/*------------*/
